@@ -5,12 +5,54 @@ projects:
     team:
       - SuhaniTalreja
 
+  elective-allocation-system:
+    repos:
+      - elective-allocation-system
+    team:
+
+  LMS:
+    repos:
+      - LMS
+    team:
+
+  NPTEL:
+    repos:
+      - NPTEL
+    team:
+
+  project-allocation-system:
+    repos:
+      - NPTEL
+    team:
+
+  sdc-admin-panel:
+    repos:
+      - sdc-admin-panel
+    team:
+      - Hiya-Ghosh
+
+  sdc-admin-panel-server:
+    repos:
+      - sdc-admin-panel-server
+    team:
+      - Hiya-Ghosh
+
+  sdc-chatbot:
+    repos:
+      - sdc-chatbot
+    team:
+
   travel-buddy:
     repos:
       - travel-buddy-frontend
       - travel-buddy-backend
     team:
       - shivanshS04
+
+  wall-of-fame:
+    repos:
+      - wall-of-fame
+    team:
 
 internal_team:
   devops:
