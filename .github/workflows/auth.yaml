@@ -1,0 +1,24 @@
+name: Auth
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@main
+
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          pyproject-file: "pyproject.toml"
+          enable-cache: true
+
+      - name: Run main.py
+        env:
+          X_GITHUB_TOKEN: ${{ secrets.X_GITHUB_TOKEN }}
+        run: uv run main.py

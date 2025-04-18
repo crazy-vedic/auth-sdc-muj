@@ -1,0 +1,21 @@
+projects:
+  athelink:
+    repos:
+      - athelink
+    team:
+      - SuhaniTalreja
+
+  travel-buddy:
+    repos:
+      - travel-buddy-frontend
+      - travel-buddy-backend
+    team:
+      - shivanshS04
+
+internal_team:
+  devops:
+    - arnavpraneet
+    - whyredfire
+
+  admin:
+    - SDCMUJ
