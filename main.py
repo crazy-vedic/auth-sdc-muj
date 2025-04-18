@@ -23,7 +23,7 @@ def add_collaborators(data, org):
             }
 
             # get maintainers list
-            maintainers_list = details["team"]
+            maintainers_list = details["team"] or []
             maintainers_set = set(maintainers_list)
 
             # see if there's anyone to add
