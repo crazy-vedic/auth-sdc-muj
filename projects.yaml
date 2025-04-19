@@ -53,6 +53,8 @@ projects:
     repos:
       - wall-of-fame
     team:
+      - crazy-vedic
+      - KanishkValechha
 
 internal_team:
   devops:
